@@ -1,0 +1,19 @@
+.pixel {
+	display: inline-block;
+	background-color: #FFFFFF;
+	border: 0px #FFFFFF solid;
+	margin: 0px;
+	opacity: 0;
+}
+
+button {
+	margin: 0 auto;
+}
+
+#screen {
+	font-size: 0px;
+	width: 500px;
+	height: 300px;
+	margin-right: auto;
+	margin-left: auto;
+}
