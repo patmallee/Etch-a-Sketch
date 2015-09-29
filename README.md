@@ -8,9 +8,9 @@ Assignment was to build a webpage that acted as an etch-a-sketch screen by using
 
 Finished repo contains 3 files:
 
-index.html - actual webpage
-EAS.css - typicaly css script, contains classes for both pre- and post-hovered states
-EAS.js - contains JQuery commands to modify tile classes and rest board on button click
+1. index.html - actual webpage
+2. EAS.css - typical css script, contains classes for both pre- and post-hovered states
+3. EAS.js - contains JQuery commands to modify tile classes and rest board on button click
 
 
 ------NOTICE!
