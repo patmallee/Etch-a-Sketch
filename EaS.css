@@ -1,19 +1,30 @@
-.pixel {
-	display: inline-block;
-	background-color: #FFFFFF;
-	border: 0px #FFFFFF solid;
-	margin: 0px;
-	opacity: 0;
-}
+
 
 button {
+	display: block;
 	margin: 0 auto;
 }
 
-#screen {
-	font-size: 0px;
-	width: 500px;
-	height: 300px;
-	margin-right: auto;
-	margin-left: auto;
+.screen {
+	border: 2px solid #000;
+	margin: 0 auto;
+	overflow: hidden;
+	z-index: -1;
+	width: 600px;
+}
+
+.pixel {
+	float: left;
+	height: 100px;
+	width: 100px;
+	background-color: #000;
+	opacity: 0.0;
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+}
+
+.break {
+	clear: both;
+	display: block;
 }
